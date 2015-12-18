@@ -1,0 +1,24 @@
+<PRE>
+#include &lt;string&gt;
+#include &lt;conio.h&gt;
+#include &lt;iostream&gt;
+#include "Validator.h"
+#include "Parser.h"
+using namespace std;
+
+int main() {
+
+	Validator val;
+	string test = "Hello there";
+	cout &lt;&lt; "original value: " &lt;&lt; test &lt;&lt; endl;
+	Parser::replaceAll(&test, "e", "WUT");
+	cout &lt;&lt; "after a replacement: " &lt;&lt; test &lt;&lt; endl &lt;&lt; endl;
+
+	Parser::parseCPPForWeb("Driver.cpp", "testOutput.htm");
+	
+
+
+	_getch();
+	return 0;
+}
+</PRE>

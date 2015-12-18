@@ -1,0 +1,3 @@
+﻿  FractionDemo.cpp
+e:\prog2100-702cplus\visualstudioprojs\rational\rational\fractiondemo.cpp(36): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Rational.vcxproj -> E:\PROG2100-702CPLUS\VisualStudioProjs\Rational\Debug\Rational.exe
